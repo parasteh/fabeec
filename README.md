@@ -15,7 +15,7 @@ In this project we used GoEmotions data set which has been published by google r
 ![img_1.png](img_1.png) Fig. 2- Frequency of n-labels samples in the data set, 1<=n<=5
 
 
-#Codes
+# Codes
 We mainly developed our method in the Google Co-Lab notebook which you can find access to it by the following link:
 [SubZero: Fabeec Emotion Classification](https://colab.research.google.com/drive/1A5dWjf98VP5PA1Iyj16KT2swAkdpESCH?authuser=3#scrollTo=ZubarRGc6n5b)
 
@@ -35,14 +35,14 @@ So far our method, FastText+TF-IDF combine with BERT which we call it fabeec has
 ![img_2.png](img_2.png) Fig. 3- Final results comparing fastText to the fine-tuned GoEmotion model
 
 
-#Future works
+# Future works
 
 1. As the dataset is imbalanced we believe applying some over/under sampling methods like SMOOTE increase the performance of the models. We saw this results when we applied a balanced version of Random Forest method which the results get boosted and the same approach will increase the performance of the our berst models which is CNN and XGBoost so far. 
 2. Also we would like to apply another weighting schema rather than TF-IDF where the emotional keywords for each class find a higher impact which help us obtain better results.
 3. Finally we need to apply a hyper-parameter tuning phase to get sure we used the model in the best way to train our model. 
 
 
-#References
+# References
 
 1. Erik Cambria et al. “Affective computing and sentiment analysis". In: A practical guide to sentiment analysis. Springer, 2017, pp. 1-10.
 2. Lin Gui et al. “Learning representations from heterogeneous network for sentiment classification of product reviews". In: Knowledge-Based Systems 124 (2017), pp. 34-45.

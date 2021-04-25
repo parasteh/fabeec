@@ -44,7 +44,7 @@ def fasttext_model_train(data, from_scratch):
         model.build_vocab(sentences=ge_sentences)
         model.train(sentences=ge_sentences, total_examples=len(ge_sentences), epochs=10)
     else:
-        print("salam")
+
         model = FastText.load_fasttext_format('content/cc.en.300')
         model.build_vocab(ge_sentences, update=True)
         # model.train(sentences=ge_sentences, total_examples = len(sent), epochs=5)
